@@ -10,6 +10,7 @@ const getSum = () => {
 		sum = sum + parseFloat(t.textContent)||0
 	}
   let msg = document.createElement('div')
+	msg.id = "ans"
 	msg.innerText = `Totol price : ${sum}`
 	document.body.appendChild(msg)
 	
